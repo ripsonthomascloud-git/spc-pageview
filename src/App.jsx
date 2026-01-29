@@ -21,8 +21,8 @@ function App() {
       content: (
         <div className="page-content funeral-program">
           <h1 className="program-title">Wake Service</h1>
-          <p className="program-date">January 30, 2026</p>
-          <p className="program-subtitle">Evening Vigil</p>
+          <p className="program-date">January 30, 2026, Friday</p>
+          <p className="program-subtitle">St. Paul's Marthoma Church, Mesquite</p>
           <div className="program-divider"></div>
 
           <div className="program-section">
@@ -35,59 +35,62 @@ function App() {
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">6:30 PM</span>
+              <span className="section-time">6:00 - 6:05 PM</span>
               <h3 className="section-title">Opening Prayer</h3>
             </div>
-            <p className="section-detail">Rev. Father John Smith</p>
+            <p className="section-detail">Rev. Rejin Raju</p>
+          </div>
+             <div className="program-section">
+            <div className="time-title-row">
+              <span className="section-time">6:05 - 6:15 PM</span>
+              <h3 className="section-title">Song by Choir</h3>
+            </div>
+            <p className="section-detail">Visitation</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">6:40 PM</span>
-              <h3 className="section-title">Scripture Reading</h3>
+              <span className="section-time">6:15 - 6:20 PM</span>
+              <h3 className="section-title">Bible Reading</h3>
             </div>
-            <p className="section-detail">Psalm 23: The Lord is My Shepherd</p>
-            <p className="section-reader">Read by: Sarah Johnson</p>
+            {/* <p className="section-detail">Psalm 23: The Lord is My Shepherd</p> */}
+            <p className="section-reader">Read by: **</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">6:50 PM</span>
-              <h3 className="section-title">Hymn</h3>
+              <span className="section-time">6:20 - 8:00 PM</span>
+              <h3 className="section-title">Eulogy</h3>
             </div>
-            <p className="section-detail">"Amazing Grace"</p>
+            <p className="section-detail">Songs by Choir & Vistation</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">7:00 PM</span>
-              <h3 className="section-title">Reflections & Tributes</h3>
+              <span className="section-time">8:00 - 8:30 PM</span>
+              <h3 className="section-title">Funeral Service Part 1</h3>
             </div>
-            <p className="section-detail">Family and Friends share memories</p>
+            {/* <p className="section-detail">Family and Friends share memories</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">7:30 PM</span>
-              <h3 className="section-title">Holy Rosary</h3>
+              <span className="section-time">8:30 -8:40 PM</span>
+              <h3 className="section-title">Announcements</h3>
             </div>
-            <p className="section-detail">Led by: Rev. Father John Smith</p>
+            <p className="section-detail">Info on Funeral Service</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">8:00 PM</span>
-              <h3 className="section-title">Closing Prayer & Benediction</h3>
-            </div>
-          </div>
+              <span className="section-time">8:40 - 9:10 PM</span>
+              <h3 className="section-title">Final Visitation</h3>
+                </div>
+            <p className="section-detail">Family Visitation</p>
 
-          <div className="program-section">
-            <div className="time-title-row">
-              <span className="section-time">8:15 PM</span>
-              <h3 className="section-title">Reception</h3>
-            </div>
-            <p className="section-detail">Light refreshments will be served</p>
+          
           </div>
+         
         </div>
       ),
       background: '#f8f6f4'
@@ -96,86 +99,110 @@ function App() {
       id: 3,
       content: (
         <div className="page-content funeral-program">
-          <h1 className="program-title">Funeral Mass</h1>
-          <p className="program-date">January 31, 2026</p>
+          <h1 className="program-title">Funeral Service</h1>
+          <p className="program-date">January 31, 2026, Saturday</p>
           <p className="program-subtitle">Funeral Liturgy</p>
           <div className="program-divider"></div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">9:30 AM</span>
-              <h3 className="section-title">Gathering of Family</h3>
+              <span className="section-time">9:00 - 9:05 AM</span>
+              <h3 className="section-title">Opening Prayer</h3>
             </div>
-            <p className="section-detail">Final viewing and private prayers</p>
+            <p className="section-detail">Rev. Rejin Raju</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">10:00 AM</span>
-              <h3 className="section-title">Entrance Procession</h3>
+              <span className="section-time">9:05 - 9:15 AM</span>
+              <h3 className="section-title">Song by Choir</h3>
             </div>
-            <p className="section-detail">Hymn: "Be Not Afraid"</p>
+            {/* <p className="section-detail">Hymn: "Be Not Afraid"</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">10:05 AM</span>
-              <h3 className="section-title">Opening Rites</h3>
+              <span className="section-time">9:15 - 9:20 AM</span>
+              <h3 className="section-title">Bible Reading</h3>
             </div>
-            <p className="section-detail">Greeting and Sprinkling with Holy Water</p>
-            <p className="section-reader">Rev. Father John Smith</p>
+            {/* <p className="section-detail">Greeting and Sprinkling with Holy Water</p> */}
+            <p className="section-reader">Read By : **</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">10:15 AM</span>
-              <h3 className="section-title">Liturgy of the Word</h3>
+              <span className="section-time">9:20 - 9:50 AM</span>
+              <h3 className="section-title">Funeral Service Part 2</h3>
             </div>
-            <p className="section-detail">First Reading: Wisdom 3:1-9</p>
+            {/* <p className="section-detail">First Reading: Wisdom 3:1-9</p>
             <p className="section-detail">Responsorial Psalm: Psalm 27</p>
             <p className="section-detail">Second Reading: Romans 8:31-35, 37-39</p>
-            <p className="section-detail">Gospel: John 14:1-6</p>
+            <p className="section-detail">Gospel: John 14:1-6</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">10:35 AM</span>
-              <h3 className="section-title">Homily</h3>
+              <span className="section-time">9:50 - 10:00 AM</span>
+              <h3 className="section-title">Song by Choir/Visitation</h3>
             </div>
-            <p className="section-detail">Rev. Father John Smith</p>
+            {/* <p className="section-detail">Rev. Father John Smith</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">10:50 AM</span>
-              <h3 className="section-title">Liturgy of the Eucharist</h3>
+              <span className="section-time">10:00 - 10:15 AM</span>
+              <h3 className="section-title">Vote Of Thanks</h3>
             </div>
-            <p className="section-detail">Preparation of Gifts</p>
-            <p className="section-detail">Holy Communion</p>
+            <p className="section-detail">Mr & Mrs Soji and Ligy Skariah</p>
+            {/* <p className="section-detail">Holy Communion</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">11:15 AM</span>
-              <h3 className="section-title">Final Commendation</h3>
+              <span className="section-time">10:15 - 10:20 AM</span>
+              <h3 className="section-title">Announcement</h3>
             </div>
-            <p className="section-detail">Songs of Farewell</p>
+            <p className="section-detail">Info on Funeral Arrangement</p>
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">11:25 AM</span>
-              <h3 className="section-title">Recessional</h3>
+              <span className="section-time">10:20 - 11:15 AM</span>
+              <h3 className="section-title">Final Visitation & Family visitation</h3>
             </div>
-            <p className="section-detail">Hymn: "On Eagle's Wings"</p>
+            {/* <p className="section-detail">Hymn: "On Eagle's Wings"</p> */}
           </div>
 
           <div className="program-section">
             <div className="time-title-row">
-              <span className="section-time">12:00 PM</span>
-              <h3 className="section-title">Committal Service</h3>
+              <span className="section-time">11:15 - 11:30 AM</span>
+              <h3 className="section-title">Funeral Service Part 3</h3>
             </div>
-            <p className="section-detail">Graveside ceremony and burial</p>
+            {/* <p className="section-detail">Graveside ceremony and burial</p> */}
+          </div>
+
+          <div className="program-section">
+            <div className="time-title-row">
+              <span className="section-time">11:30 AM- 12:30 PM</span>
+              <h3 className="section-title">Funeral Procession to Cemetery</h3>
+            </div>
+            {/* <p className="section-detail">Graveside ceremony and burial</p> */}
+          </div>
+
+          <div className="program-section">
+            <div className="time-title-row">
+              <span className="section-time">12:30 - 1:00 PM</span>
+              <h3 className="section-title">Closing Prayer & Benediction</h3>
+            </div>
+            <p className="section-detail">New Hope Funeral Home, Sunnyvale</p>
+          </div>
+
+          <div className="program-section">
+            <div className="time-title-row">
+              <span className="section-time">1:00 PM</span>
+              <h3 className="section-title">Wake(Refreshments)</h3>
+            </div>
+            <p className="section-detail">New Hope Funeral Home, Sunnyvale</p>
           </div>
         </div>
       ),
