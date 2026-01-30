@@ -53,8 +53,10 @@ function App() {
               <span className="section-time">6:15 - 6:20 PM</span>
               <h3 className="section-title">Bible Reading</h3>
             </div>
-            {/* <p className="section-detail">Psalm 23: The Lord is My Shepherd</p> */}
-            <p className="section-reader">Read by: **</p>
+            <p className="section-detail">Lesson 1 : 1 Corinthians 15: 12-26</p>
+            <p className="section-reader">Read by: Christina Raju</p>
+            <p className="section-detail">Lesson 2 : 2 Corinthians 5: 1-10</p>
+            <p className="section-reader">Read by: Jijo Mathew</p>
           </div>
 
           <div className="program-section">
@@ -109,7 +111,7 @@ function App() {
               <span className="section-time">9:00 - 9:05 AM</span>
               <h3 className="section-title">Opening Prayer</h3>
             </div>
-            <p className="section-detail">Rev. Rejin Raju</p>
+            {/* <p className="section-detail">Rev. Rejin Raju</p> */}
           </div>
 
           <div className="program-section">
@@ -126,7 +128,11 @@ function App() {
               <h3 className="section-title">Bible Reading</h3>
             </div>
             {/* <p className="section-detail">Greeting and Sprinkling with Holy Water</p> */}
-            <p className="section-reader">Read By : **</p>
+            {/* <p className="section-reader">Read By : **</p> */}
+             <p className="section-detail">Lesson 3 : John 11: 11-25</p>
+            <p className="section-reader">Read by: Anju Mathew</p>
+            <p className="section-detail">Lesson 4 : 1 Thessalonians 4: 13-18</p>
+            <p className="section-reader">Read by: Jissy Philip</p>
           </div>
 
           <div className="program-section">
